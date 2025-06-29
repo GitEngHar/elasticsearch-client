@@ -9,6 +9,7 @@ import (
 	"github.com/elastic/go-elasticsearch/v8/esapi"
 	"log"
 	"net/http"
+	"os"
 	"strings"
 )
 
@@ -23,7 +24,7 @@ func main() {
 	cfg := elasticsearch.Config{
 		Addresses: []string{"https://localhost:9200"},
 		Username:  "elastic",
-		Password:  "4tR2sRi5s3_PuuidXeZx",
+		Password:  os.Getenv("ELASTIC_PASSWD"),
 		Transport: &http.Transport{
 			TLSClientConfig: &tls.Config{
 				InsecureSkipVerify: true,
