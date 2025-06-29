@@ -16,7 +16,7 @@ This repository contains a simple Go program for interacting with Elasticsearch 
 
 2. Generate a password
     ```sh
-    ./elastic-search-run.bash
+    ./elastic-search-create-password.bash
     ```
 
 3. Set the environment variable
