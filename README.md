@@ -30,11 +30,10 @@ This repository contains a simple Go program for interacting with Elasticsearch 
     ```
 
 ### Example output
-
-    ```sh
-    ~/Documents/elasticsearch-client git:[master]
-    go run main.go
-    Indexed document, status: 200 OK
-    Found 1 hits:
-    - bob: Hello Elastic 
-    ```
+```sh
+~/Documents/elasticsearch-client git:[master]
+go run main.go
+Indexed document, status: 200 OK
+Found 1 hits:
+- bob: Hello Elastic 
+```
