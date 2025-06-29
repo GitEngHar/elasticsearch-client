@@ -9,7 +9,7 @@ This repository contains a simple Go program for interacting with Elasticsearch 
 
 ### Usage
 
-1. **Start Elasticsearch**
+1. Start Elasticsearch
     ```sh
     ./elastic-search-run.bash
     ```
@@ -30,6 +30,7 @@ This repository contains a simple Go program for interacting with Elasticsearch 
     ```
 
 ### Example output
+
     ```sh
     ~/Documents/elasticsearch-client git:[master]
     go run main.go
