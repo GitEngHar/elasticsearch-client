@@ -1,12 +1,13 @@
 package main
 
+// https://www.elastic.co/docs/reference/elasticsearch/clients/go/getting-started#_connecting
 import (
 	"context"
 	"crypto/tls"
 	"encoding/json"
 	"fmt"
-	"github.com/elastic/go-elasticsearch/v8"
-	"github.com/elastic/go-elasticsearch/v8/esapi"
+	"github.com/elastic/go-elasticsearch/v9"
+	"github.com/elastic/go-elasticsearch/v9/esapi"
 	"log"
 	"net/http"
 	"os"
